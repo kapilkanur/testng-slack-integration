@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SlackIntegrationSuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.kk.listeners.SlackReporterListener"></listener>
+    </listeners>
+    <test name="Slack Integration Tests">
+        <classes>
+            <class name="com.kk.integration.TestSlackIntegration"/>
+        </classes>
+    </test>
+</suite>

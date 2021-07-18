@@ -1,3 +1,5 @@
+package com.kk.integration;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -6,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TestSlackIntegration {
 
-    private static final Logger LOG = LoggerFactory.getLogger(TestSlackIntegration.class);
+    private final Logger LOG = LoggerFactory.getLogger(TestSlackIntegration.class);
 
     @Test
     public void caseThatPasses() {
